@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA982719F2D8001008E4 /* AppDelegate.swift */; };
 		1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA9A2719F2D8001008E4 /* SceneDelegate.swift */; };
-		1230DA9D2719F2D8001008E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA9C2719F2D8001008E4 /* ViewController.swift */; };
+		1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA9C2719F2D8001008E4 /* SendCashViewController.swift */; };
 		1230DAA02719F2D8001008E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1230DA9E2719F2D8001008E4 /* Main.storyboard */; };
 		1230DAA22719F2D9001008E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1230DAA12719F2D9001008E4 /* Assets.xcassets */; };
 		1230DAA52719F2D9001008E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1230DAA32719F2D9001008E4 /* LaunchScreen.storyboard */; };
+		1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAAF2719F5AA001008E4 /* DetailViewController.swift */; };
+		1230DAB22719F6BC001008E4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAB12719F6BC001008E4 /* Account.swift */; };
+		1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAB52719FA03001008E4 /* NotificationCenterViewController.swift */; };
+		1230DABD2719FF00001008E4 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DABC2719FF00001008E4 /* AViewController.swift */; };
+		1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC02719FF3C001008E4 /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1230DA952719F2D8001008E4 /* clientserver-1641.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clientserver-1641.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1230DA982719F2D8001008E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1230DA9A2719F2D8001008E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1230DA9C2719F2D8001008E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1230DA9C2719F2D8001008E4 /* SendCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCashViewController.swift; sourceTree = "<group>"; };
 		1230DA9F2719F2D8001008E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1230DAA12719F2D9001008E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1230DAA42719F2D9001008E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1230DAA62719F2D9001008E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1230DAAF2719F5AA001008E4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1230DAB12719F6BC001008E4 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1230DAB52719FA03001008E4 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		1230DABC2719FF00001008E4 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		1230DAC02719FF3C001008E4 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		1230DA972719F2D8001008E4 /* clientserver-1641 */ = {
 			isa = PBXGroup;
 			children = (
+				1230DAAC2719F3D3001008E4 /* App */,
+				1230DAAE2719F567001008E4 /* Lesson-1 */,
+				1230DAAD2719F3DE001008E4 /* Resources */,
+			);
+			path = "clientserver-1641";
+			sourceTree = "<group>";
+		};
+		1230DAAC2719F3D3001008E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				1230DA982719F2D8001008E4 /* AppDelegate.swift */,
 				1230DA9A2719F2D8001008E4 /* SceneDelegate.swift */,
-				1230DA9C2719F2D8001008E4 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1230DAAD2719F3DE001008E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1230DA9E2719F2D8001008E4 /* Main.storyboard */,
 				1230DAA12719F2D9001008E4 /* Assets.xcassets */,
 				1230DAA32719F2D9001008E4 /* LaunchScreen.storyboard */,
 				1230DAA62719F2D9001008E4 /* Info.plist */,
 			);
-			path = "clientserver-1641";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1230DAAE2719F567001008E4 /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				1230DAB72719FE29001008E4 /* Delegate */,
+				1230DAB42719F9E6001008E4 /* Observer - NotificationCenter */,
+				1230DAB32719F9DA001008E4 /* Singleton */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
+		1230DAB32719F9DA001008E4 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1230DA9C2719F2D8001008E4 /* SendCashViewController.swift */,
+				1230DAAF2719F5AA001008E4 /* DetailViewController.swift */,
+				1230DAB12719F6BC001008E4 /* Account.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1230DAB42719F9E6001008E4 /* Observer - NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				1230DAB52719FA03001008E4 /* NotificationCenterViewController.swift */,
+			);
+			path = "Observer - NotificationCenter";
+			sourceTree = "<group>";
+		};
+		1230DAB72719FE29001008E4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1230DABC2719FF00001008E4 /* AViewController.swift */,
+				1230DAC02719FF3C001008E4 /* BViewController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1230DA9D2719F2D8001008E4 /* ViewController.swift in Sources */,
+				1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */,
+				1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */,
+				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
+				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
+				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
+				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "clientserver-1641/Info.plist";
+				INFOPLIST_FILE = "clientserver-1641/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "clientserver-1641/Info.plist";
+				INFOPLIST_FILE = "clientserver-1641/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
