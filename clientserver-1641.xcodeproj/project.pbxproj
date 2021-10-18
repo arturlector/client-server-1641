@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,15 @@
 		1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAB52719FA03001008E4 /* NotificationCenterViewController.swift */; };
 		1230DABD2719FF00001008E4 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DABC2719FF00001008E4 /* AViewController.swift */; };
 		1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC02719FF3C001008E4 /* BViewController.swift */; };
+		1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */; };
+		1230DAC7271DF154001008E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1230DAC6271DF154001008E4 /* Alamofire */; };
+		12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC43271DF32700971F2D /* AuthViewController.swift */; };
+		12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC45271DF4F100971F2D /* FriendsViewController.swift */; };
+		12BEBC48271DF7EA00971F2D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC47271DF7EA00971F2D /* Session.swift */; };
+		12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */; };
+		12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */; };
+		12BEBC50271DFCDB00971F2D /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */; };
+		25D197AA7EBBC837D562285C /* Pods_clientserver_1641.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EBC4AF3EA38C35A70D5793 /* Pods_clientserver_1641.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,16 @@
 		1230DAB52719FA03001008E4 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		1230DABC2719FF00001008E4 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		1230DAC02719FF3C001008E4 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		12BEBC43271DF32700971F2D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		12BEBC45271DF4F100971F2D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		12BEBC47271DF7EA00971F2D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAPI.swift; sourceTree = "<group>"; };
+		44D46B9897DDE8670A2AE8B5 /* Pods-clientserver-1641.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clientserver-1641.release.xcconfig"; path = "Target Support Files/Pods-clientserver-1641/Pods-clientserver-1641.release.xcconfig"; sourceTree = "<group>"; };
+		51EBC4AF3EA38C35A70D5793 /* Pods_clientserver_1641.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clientserver_1641.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54A4C78B70BD0846EF583BA /* Pods-clientserver-1641.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clientserver-1641.debug.xcconfig"; path = "Target Support Files/Pods-clientserver-1641/Pods-clientserver-1641.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1230DAC7271DF154001008E4 /* Alamofire in Frameworks */,
+				25D197AA7EBBC837D562285C /* Pods_clientserver_1641.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +73,8 @@
 			children = (
 				1230DA972719F2D8001008E4 /* clientserver-1641 */,
 				1230DA962719F2D8001008E4 /* Products */,
+				8F286F47347F2E1BAD608F06 /* Frameworks */,
+				417838818C611AF96A6C2D39 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				1230DAAC2719F3D3001008E4 /* App */,
+				12BEBC42271DF30C00971F2D /* vk-api */,
+				1230DAC4271DE5C8001008E4 /* Lesson-2 */,
 				1230DAAE2719F567001008E4 /* Lesson-1 */,
 				1230DAAD2719F3DE001008E4 /* Resources */,
 			);
@@ -130,6 +155,60 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		1230DAC4271DE5C8001008E4 /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */,
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		12BEBC42271DF30C00971F2D /* vk-api */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC49271DF92300971F2D /* Modules */,
+				12BEBC4A271DF92E00971F2D /* Services */,
+			);
+			path = "vk-api";
+			sourceTree = "<group>";
+		};
+		12BEBC49271DF92300971F2D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC43271DF32700971F2D /* AuthViewController.swift */,
+				12BEBC45271DF4F100971F2D /* FriendsViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		12BEBC4A271DF92E00971F2D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC47271DF7EA00971F2D /* Session.swift */,
+				12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */,
+				12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */,
+				12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		417838818C611AF96A6C2D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E54A4C78B70BD0846EF583BA /* Pods-clientserver-1641.debug.xcconfig */,
+				44D46B9897DDE8670A2AE8B5 /* Pods-clientserver-1641.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F286F47347F2E1BAD608F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EBC4AF3EA38C35A70D5793 /* Pods_clientserver_1641.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1230DAA92719F2D9001008E4 /* Build configuration list for PBXNativeTarget "clientserver-1641" */;
 			buildPhases = (
+				784EE282F6F13F8BF17051A7 /* [CP] Check Pods Manifest.lock */,
 				1230DA912719F2D8001008E4 /* Sources */,
 				1230DA922719F2D8001008E4 /* Frameworks */,
 				1230DA932719F2D8001008E4 /* Resources */,
@@ -146,6 +226,9 @@
 			dependencies = (
 			);
 			name = "clientserver-1641";
+			packageProductDependencies = (
+				1230DAC6271DF154001008E4 /* Alamofire */,
+			);
 			productName = "clientserver-1641";
 			productReference = 1230DA952719F2D8001008E4 /* clientserver-1641.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 1230DA8C2719F2D8001008E4;
+			packageReferences = (
+				1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1230DA962719F2D8001008E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +281,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		784EE282F6F13F8BF17051A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clientserver-1641-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1230DA912719F2D8001008E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,12 +313,19 @@
 			files = (
 				1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */,
 				1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */,
+				12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */,
+				12BEBC50271DFCDB00971F2D /* GroupsAPI.swift in Sources */,
+				1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */,
 				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
+				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
+				12BEBC48271DF7EA00971F2D /* Session.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
+				12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
+				12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +469,7 @@
 		};
 		1230DAAA2719F2D9001008E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54A4C78B70BD0846EF583BA /* Pods-clientserver-1641.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,6 +489,7 @@
 		};
 		1230DAAB2719F2D9001008E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D46B9897DDE8670A2AE8B5 /* Pods-clientserver-1641.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -409,6 +529,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1230DAC6271DF154001008E4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1230DA8D2719F2D8001008E4 /* Project object */;
 }
