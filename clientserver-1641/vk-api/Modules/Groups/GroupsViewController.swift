@@ -1,23 +1,23 @@
 //
-//  FriendsViewController.swift
+//  GroupsViewController.swift
 //  clientserver-1641
 //
-//  Created by Artur Igberdin on 18.10.2021.
+//  Created by Artur Igberdin on 21.10.2021.
 //
 
 import UIKit
 
-class FriendsViewController: UITableViewController {
+class GroupsViewController: UITableViewController {
 
-    let friendsService = FriendsAPI()
+    let groupsService = GroupsAPI()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
       
-        friendsService.getFriends { friends in
+        groupsService.getGroups { groups in
             
-            print("Получили друзей в контроллере")
+            print("Получили группы в контроллере")
         }
     }
 
