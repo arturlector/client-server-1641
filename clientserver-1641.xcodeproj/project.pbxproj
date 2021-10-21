@@ -20,6 +20,14 @@
 		1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC02719FF3C001008E4 /* BViewController.swift */; };
 		1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */; };
 		1230DAC7271DF154001008E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1230DAC6271DF154001008E4 /* Alamofire */; };
+		1298D1F82721CF4A00D833EA /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1F72721CF4A00D833EA /* GroupsViewController.swift */; };
+		1298D1FD2721CFBB00D833EA /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1FC2721CFBB00D833EA /* PhotosViewController.swift */; };
+		1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D2012721DA6F00D833EA /* Data+PrettyJSON.swift */; };
+		1298D2052721E29A00D833EA /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1298D2042721E29A00D833EA /* SwiftyJSON */; };
+		1298D2072721E75C00D833EA /* Friend3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D2062721E75C00D833EA /* Friend3.swift */; };
+		1298D20A2721E98E00D833EA /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D2092721E98E00D833EA /* Friend1.swift */; };
+		1298D20C2721E9B000D833EA /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20B2721E9B000D833EA /* Friend2.swift */; };
+		1298D20E2721E9E700D833EA /* Friend4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20D2721E9E700D833EA /* Friend4.swift */; };
 		12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC43271DF32700971F2D /* AuthViewController.swift */; };
 		12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC45271DF4F100971F2D /* FriendsViewController.swift */; };
 		12BEBC48271DF7EA00971F2D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC47271DF7EA00971F2D /* Session.swift */; };
@@ -44,6 +52,13 @@
 		1230DABC2719FF00001008E4 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		1230DAC02719FF3C001008E4 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		1298D1F72721CF4A00D833EA /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		1298D1FC2721CFBB00D833EA /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		1298D2012721DA6F00D833EA /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		1298D2062721E75C00D833EA /* Friend3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend3.swift; sourceTree = "<group>"; };
+		1298D2092721E98E00D833EA /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
+		1298D20B2721E9B000D833EA /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
+		1298D20D2721E9E700D833EA /* Friend4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend4.swift; sourceTree = "<group>"; };
 		12BEBC43271DF32700971F2D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12BEBC45271DF4F100971F2D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		12BEBC47271DF7EA00971F2D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1298D2052721E29A00D833EA /* SwiftyJSON in Frameworks */,
 				1230DAC7271DF154001008E4 /* Alamofire in Frameworks */,
 				25D197AA7EBBC837D562285C /* Pods_clientserver_1641.framework in Frameworks */,
 			);
@@ -163,10 +179,73 @@
 			path = "Lesson-2";
 			sourceTree = "<group>";
 		};
+		1298D1F62721C94300D833EA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */,
+				12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */,
+				12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1298D1F92721CF8600D833EA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC43271DF32700971F2D /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1298D1FA2721CF8F00D833EA /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				12BEBC45271DF4F100971F2D /* FriendsViewController.swift */,
+				1298D2082721E76100D833EA /* Models */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		1298D1FB2721CF9900D833EA /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				1298D1F72721CF4A00D833EA /* GroupsViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		1298D1FE2721CFE800D833EA /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				1298D1FC2721CFBB00D833EA /* PhotosViewController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		1298D2002721DA4300D833EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1298D2012721DA6F00D833EA /* Data+PrettyJSON.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1298D2082721E76100D833EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1298D2092721E98E00D833EA /* Friend1.swift */,
+				1298D20B2721E9B000D833EA /* Friend2.swift */,
+				1298D2062721E75C00D833EA /* Friend3.swift */,
+				1298D20D2721E9E700D833EA /* Friend4.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		12BEBC42271DF30C00971F2D /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
 				12BEBC49271DF92300971F2D /* Modules */,
+				1298D2002721DA4300D833EA /* Helpers */,
 				12BEBC4A271DF92E00971F2D /* Services */,
 			);
 			path = "vk-api";
@@ -175,8 +254,10 @@
 		12BEBC49271DF92300971F2D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				12BEBC43271DF32700971F2D /* AuthViewController.swift */,
-				12BEBC45271DF4F100971F2D /* FriendsViewController.swift */,
+				1298D1F92721CF8600D833EA /* Auth */,
+				1298D1FA2721CF8F00D833EA /* Friends */,
+				1298D1FB2721CF9900D833EA /* Groups */,
+				1298D1FE2721CFE800D833EA /* Photos */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -185,9 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				12BEBC47271DF7EA00971F2D /* Session.swift */,
-				12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */,
-				12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */,
-				12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */,
+				1298D1F62721C94300D833EA /* API */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -228,6 +307,7 @@
 			name = "clientserver-1641";
 			packageProductDependencies = (
 				1230DAC6271DF154001008E4 /* Alamofire */,
+				1298D2042721E29A00D833EA /* SwiftyJSON */,
 			);
 			productName = "clientserver-1641";
 			productReference = 1230DA952719F2D8001008E4 /* clientserver-1641.app */;
@@ -258,6 +338,7 @@
 			mainGroup = 1230DA8C2719F2D8001008E4;
 			packageReferences = (
 				1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1298D2032721E29A00D833EA /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 1230DA962719F2D8001008E4 /* Products */;
 			projectDirPath = "";
@@ -311,19 +392,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1298D20E2721E9E700D833EA /* Friend4.swift in Sources */,
+				1298D2072721E75C00D833EA /* Friend3.swift in Sources */,
 				1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */,
+				1298D1FD2721CFBB00D833EA /* PhotosViewController.swift in Sources */,
 				1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */,
 				12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */,
 				12BEBC50271DFCDB00971F2D /* GroupsAPI.swift in Sources */,
+				1298D1F82721CF4A00D833EA /* GroupsViewController.swift in Sources */,
+				1298D20C2721E9B000D833EA /* Friend2.swift in Sources */,
 				1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */,
 				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
 				12BEBC48271DF7EA00971F2D /* Session.swift in Sources */,
+				1298D20A2721E98E00D833EA /* Friend1.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
 				12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */,
+				1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
 				12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */,
 			);
@@ -539,6 +627,14 @@
 				minimumVersion = 5.4.4;
 			};
 		};
+		1298D2032721E29A00D833EA /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -546,6 +642,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		1298D2042721E29A00D833EA /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1298D2032721E29A00D833EA /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
