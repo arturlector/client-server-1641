@@ -328,6 +328,21 @@
             </objects>
             <point key="canvasLocation" x="1435" y="-802"/>
         </scene>
+        <!--Storage View Controller-->
+        <scene sceneID="Sbq-hk-Zaw">
+            <objects>
+                <viewController id="lgp-9s-GCJ" customClass="StorageViewController" customModule="clientserver_1641" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ZM-rg-ERD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1zc-PQ-YJS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vm2-hz-PNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1771" y="-2262"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="VvZ-sq-hQS">
             <objects>

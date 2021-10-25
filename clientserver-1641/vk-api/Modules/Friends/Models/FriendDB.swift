@@ -6,14 +6,15 @@
 //
 
 import Foundation
+import RealmSwift
 
 // MARK: - Codable + SwiftyJSON
 
-struct Friend4: Codable {
-    let id: Int
-    let lastName: String
-    let firstName: String
-    let photo100: String
+class FriendDB: Object, Codable {
+    @objc dynamic var id: Int
+    @objc dynamic var lastName: String
+    @objc dynamic var firstName: String
+    @objc dynamic var photo100: String
     
     var fullName: String {
         firstName + lastName

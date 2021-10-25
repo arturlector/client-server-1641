@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftKeychainWrapper
 
 final class Session {
     
@@ -13,6 +14,23 @@ final class Session {
     
     static let shared = Session()
     
-    var token = ""
-    var userId = ""
+    //Keychain
+    var token: String {
+        set {
+            KeychainWrapper.standard.set(newValue, forKey: "userId")
+        }
+        get {
+            return KeychainWrapper.standard.string(forKey: "userId") ?? ""
+        }
+    }
+    
+    //UserDefaults
+    var userId: Int {
+        set {
+            UserDefaults.standard.set(newValue, forKey: "userId")
+        }
+        get {
+            return UserDefaults.standard.integer(forKey: "userId")
+        }
+    }
 }
