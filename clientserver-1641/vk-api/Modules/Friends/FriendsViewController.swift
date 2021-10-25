@@ -11,7 +11,7 @@ class FriendsViewController: UITableViewController {
 
     let friendsService = FriendsAPI()
     
-    var friends: [Friend4] = []
+    var friends: [FriendDB] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
