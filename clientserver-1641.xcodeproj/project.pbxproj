@@ -41,6 +41,8 @@
 		12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */; };
 		12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */; };
 		12BEBC50271DFCDB00971F2D /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */; };
+		12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD962227305A1800445CC5 /* RelmViewController.swift */; };
+		12DD9625273062B900445CC5 /* PersonDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD9624273062B900445CC5 /* PersonDB.swift */; };
 		25D197AA7EBBC837D562285C /* Pods_clientserver_1641.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EBC4AF3EA38C35A70D5793 /* Pods_clientserver_1641.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
 		12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
 		12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAPI.swift; sourceTree = "<group>"; };
+		12DD962227305A1800445CC5 /* RelmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelmViewController.swift; sourceTree = "<group>"; };
+		12DD9624273062B900445CC5 /* PersonDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDB.swift; sourceTree = "<group>"; };
 		44D46B9897DDE8670A2AE8B5 /* Pods-clientserver-1641.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clientserver-1641.release.xcconfig"; path = "Target Support Files/Pods-clientserver-1641/Pods-clientserver-1641.release.xcconfig"; sourceTree = "<group>"; };
 		51EBC4AF3EA38C35A70D5793 /* Pods_clientserver_1641.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clientserver_1641.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54A4C78B70BD0846EF583BA /* Pods-clientserver-1641.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clientserver-1641.debug.xcconfig"; path = "Target Support Files/Pods-clientserver-1641/Pods-clientserver-1641.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1230DAAC2719F3D3001008E4 /* App */,
+				12DD96212730598100445CC5 /* Lesson-6 */,
 				1294AEC127271F4C00C7F1F3 /* Lesson-4 */,
 				12BEBC42271DF30C00971F2D /* vk-api */,
 				1230DAC4271DE5C8001008E4 /* Lesson-2 */,
@@ -297,6 +302,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		12DD96212730598100445CC5 /* Lesson-6 */ = {
+			isa = PBXGroup;
+			children = (
+				12DD962227305A1800445CC5 /* RelmViewController.swift */,
+				12DD9624273062B900445CC5 /* PersonDB.swift */,
+			);
+			path = "Lesson-6";
+			sourceTree = "<group>";
+		};
 		417838818C611AF96A6C2D39 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +451,7 @@
 				1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */,
 				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
+				12DD9625273062B900445CC5 /* PersonDB.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
@@ -445,6 +460,7 @@
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
 				12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */,
+				12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */,
 				1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
 				12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */,

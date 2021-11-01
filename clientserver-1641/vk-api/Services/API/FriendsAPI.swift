@@ -17,7 +17,7 @@ final class FriendsAPI {
     let version = "5.81"
     
     
-    func getFriends4(completion: @escaping([FriendDB])->()) {
+    func getFriends4(completion: @escaping([FriendModel])->()) {
         
         let method = "/friends.get"
         
@@ -42,7 +42,7 @@ final class FriendsAPI {
                 
                 //Подбинарник только items
                 let itemsData = try JSON(data)["response"]["items"].rawData()
-                let friends = try JSONDecoder().decode([FriendDB].self, from: itemsData)
+                let friends = try JSONDecoder().decode([FriendModel].self, from: itemsData)
           
                 completion(friends)
                 

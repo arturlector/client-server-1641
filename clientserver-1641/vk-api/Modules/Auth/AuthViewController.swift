@@ -19,9 +19,9 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if !Session.shared.token.isEmpty, Session.shared.userId > 0 {
-            performSegue(withIdentifier: "showTabBarSegue", sender: nil)
-        }
+//        if !Session.shared.token.isEmpty, Session.shared.userId > 0 {
+//            performSegue(withIdentifier: "showTabBarSegue", sender: nil)
+//        }
         
         authorizeToVKAPI()
     }

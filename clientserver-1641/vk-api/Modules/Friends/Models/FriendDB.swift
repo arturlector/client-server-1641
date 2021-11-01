@@ -10,7 +10,7 @@ import RealmSwift
 
 // MARK: - Codable + SwiftyJSON
 
-class FriendDB: Object, Codable {
+class FriendModel: Object, Codable {
     @objc dynamic var id: Int
     @objc dynamic var lastName: String
     @objc dynamic var firstName: String
