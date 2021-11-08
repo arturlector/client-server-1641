@@ -8,6 +8,7 @@
 import UIKit
 import RealmSwift
 
+/*
 class RelmViewController: UIViewController {
 
     let personDB = PersonDB()
@@ -55,3 +56,5 @@ class RelmViewController: UIViewController {
         
     }
 }
+
+ */
