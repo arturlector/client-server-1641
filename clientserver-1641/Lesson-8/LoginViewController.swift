@@ -26,7 +26,6 @@ class LoginViewController: UIViewController {
             guard user != nil else { return }
             self.showHomeVC()
         }
-        
     }
     
     @IBAction func signInAction(_ sender: Any?) {

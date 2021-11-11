@@ -14,8 +14,26 @@ class HomeViewController: UIViewController {
     
     let ref = Database.database().reference(withPath: "cities") //ссылка на контейнер в Firebase Database
 
+    var cities: [CityFirebase] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ref.observe(.value, with: { snapshot in
+            
+            var cities: [CityFirebase] = []
+            
+            for child in snapshot.children {
+                if let snapshot = child as? DataSnapshot,
+                   let city = CityFirebase(snapshot: snapshot) {
+                    cities.append(city)
+                }
+            }
+            self.cities = cities
+            let _ = self.cities.map { print($0.name, $0.zipcode) }
+            //self.tableView.reloadData()
+            
+        })
 
     }
     
