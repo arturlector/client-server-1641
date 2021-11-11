@@ -20,9 +20,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         ref.observe(.value, with: { snapshot in
-            
             var cities: [CityFirebase] = []
-            
             for child in snapshot.children {
                 if let snapshot = child as? DataSnapshot,
                    let city = CityFirebase(snapshot: snapshot) {
@@ -32,7 +30,6 @@ class HomeViewController: UIViewController {
             self.cities = cities
             let _ = self.cities.map { print($0.name, $0.zipcode) }
             //self.tableView.reloadData()
-            
         })
 
     }

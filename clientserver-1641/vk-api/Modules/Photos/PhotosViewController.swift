@@ -15,7 +15,6 @@ class PhotosViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
         photosService.getPhotos { photos in
             
             print("Получили фотки в контроллере")

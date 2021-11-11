@@ -42,11 +42,14 @@
 		1298D20A2721E98E00D833EA /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D2092721E98E00D833EA /* Friend1.swift */; };
 		1298D20C2721E9B000D833EA /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20B2721E9B000D833EA /* Friend2.swift */; };
 		1298D20E2721E9E700D833EA /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20D2721E9E700D833EA /* FriendModel.swift */; };
+		1299952B273D8E4E001FFA46 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952A273D8E4E001FFA46 /* Photo.swift */; };
+		1299952D273D9041001FFA46 /* PhotosCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952C273D9041001FFA46 /* PhotosCollectionController.swift */; };
+		12999530273D90FE001FFA46 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952F273D90FE001FFA46 /* PhotoCell.swift */; };
 		12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC43271DF32700971F2D /* AuthViewController.swift */; };
 		12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC45271DF4F100971F2D /* FriendsViewController.swift */; };
 		12BEBC48271DF7EA00971F2D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC47271DF7EA00971F2D /* Session.swift */; };
 		12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */; };
-		12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */; };
+		12BEBC4E271DFCCD00971F2D /* PhotosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4D271DFCCD00971F2D /* PhotosAPI.swift */; };
 		12BEBC50271DFCDB00971F2D /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */; };
 		12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD962227305A1800445CC5 /* RelmViewController.swift */; };
 		12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD9624273062B900445CC5 /* FriendsDB.swift */; };
@@ -84,11 +87,14 @@
 		1298D2092721E98E00D833EA /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
 		1298D20B2721E9B000D833EA /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
 		1298D20D2721E9E700D833EA /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		1299952A273D8E4E001FFA46 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1299952C273D9041001FFA46 /* PhotosCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionController.swift; sourceTree = "<group>"; };
+		1299952F273D90FE001FFA46 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		12BEBC43271DF32700971F2D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12BEBC45271DF4F100971F2D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		12BEBC47271DF7EA00971F2D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
-		12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		12BEBC4D271DFCCD00971F2D /* PhotosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAPI.swift; sourceTree = "<group>"; };
 		12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAPI.swift; sourceTree = "<group>"; };
 		12DD962227305A1800445CC5 /* RelmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelmViewController.swift; sourceTree = "<group>"; };
 		12DD9624273062B900445CC5 /* FriendsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDB.swift; sourceTree = "<group>"; };
@@ -220,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				12DD9624273062B900445CC5 /* FriendsDB.swift */,
-				1298D20D2721E9E700D833EA /* FriendModel.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -248,9 +253,9 @@
 		1298D1F62721C94300D833EA /* API */ = {
 			isa = PBXGroup;
 			children = (
+				12BEBC4D271DFCCD00971F2D /* PhotosAPI.swift */,
 				12BEBC4B271DF94F00971F2D /* FriendsAPI.swift */,
 				12BEBC4F271DFCDB00971F2D /* GroupsAPI.swift */,
-				12BEBC4D271DFCCD00971F2D /* PhotoAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -266,8 +271,8 @@
 		1298D1FA2721CF8F00D833EA /* Friends */ = {
 			isa = PBXGroup;
 			children = (
-				12BEBC45271DF4F100971F2D /* FriendsViewController.swift */,
 				1298D2082721E76100D833EA /* Models */,
+				12BEBC45271DF4F100971F2D /* FriendsViewController.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -283,7 +288,9 @@
 		1298D1FE2721CFE800D833EA /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				1299952C273D9041001FFA46 /* PhotosCollectionController.swift */,
 				1298D1FC2721CFBB00D833EA /* PhotosViewController.swift */,
+				1299952E273D90E0001FFA46 /* Cells */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -307,9 +314,27 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		12999529273D8C68001FFA46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1298D20D2721E9E700D833EA /* FriendModel.swift */,
+				1299952A273D8E4E001FFA46 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1299952E273D90E0001FFA46 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1299952F273D90FE001FFA46 /* PhotoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		12BEBC42271DF30C00971F2D /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
+				12999529273D8C68001FFA46 /* Models */,
 				12BEBC4A271DF92E00971F2D /* Services */,
 				12BEBC49271DF92300971F2D /* Modules */,
 				1298D2002721DA4300D833EA /* Extensions */,
@@ -494,15 +519,18 @@
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
 				12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
+				1299952B273D8E4E001FFA46 /* Photo.swift in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
+				12999530273D90FE001FFA46 /* PhotoCell.swift in Sources */,
 				12922992273997440057B1E6 /* LoginViewController.swift in Sources */,
 				12BEBC48271DF7EA00971F2D /* Session.swift in Sources */,
 				1298D20A2721E98E00D833EA /* Friend1.swift in Sources */,
 				12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
+				1299952D273D9041001FFA46 /* PhotosCollectionController.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
-				12BEBC4E271DFCCD00971F2D /* PhotoAPI.swift in Sources */,
+				12BEBC4E271DFCCD00971F2D /* PhotosAPI.swift in Sources */,
 				12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */,
 				1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
