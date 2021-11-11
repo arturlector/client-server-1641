@@ -17,7 +17,7 @@ final class PhotosAPI {
     let version = "5.81"
 
     
-    func getPhotos(completion: @escaping([Photo])->()) {
+    func getPhotos(completion: @escaping([PhotoModel])->()) {
         
         let method = "/photos.getAll"
         
@@ -40,7 +40,13 @@ final class PhotosAPI {
             
             do {
                 let itemsData = try JSON(data)["response"]["items"].rawData()
-                let photos = try JSONDecoder().decode([Photo].self, from: itemsData)
+                
+                //Уже рилмовский объект
+                var photos = try JSONDecoder().decode([PhotoModel].self, from: itemsData)
+                
+                for photo in photos {
+                    photo.assetUrl = photo.photoUrl
+                }
                 
                 completion(photos)
             } catch {
