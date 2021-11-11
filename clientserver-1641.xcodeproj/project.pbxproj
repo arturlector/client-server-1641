@@ -42,9 +42,10 @@
 		1298D20A2721E98E00D833EA /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D2092721E98E00D833EA /* Friend1.swift */; };
 		1298D20C2721E9B000D833EA /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20B2721E9B000D833EA /* Friend2.swift */; };
 		1298D20E2721E9E700D833EA /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D20D2721E9E700D833EA /* FriendModel.swift */; };
-		1299952B273D8E4E001FFA46 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952A273D8E4E001FFA46 /* Photo.swift */; };
+		1299952B273D8E4E001FFA46 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952A273D8E4E001FFA46 /* PhotoModel.swift */; };
 		1299952D273D9041001FFA46 /* PhotosCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952C273D9041001FFA46 /* PhotosCollectionController.swift */; };
 		12999530273D90FE001FFA46 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299952F273D90FE001FFA46 /* PhotoCell.swift */; };
+		12999532273D99DE001FFA46 /* PhotosDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12999531273D99DE001FFA46 /* PhotosDB.swift */; };
 		12BEBC44271DF32700971F2D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC43271DF32700971F2D /* AuthViewController.swift */; };
 		12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC45271DF4F100971F2D /* FriendsViewController.swift */; };
 		12BEBC48271DF7EA00971F2D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBC47271DF7EA00971F2D /* Session.swift */; };
@@ -87,9 +88,10 @@
 		1298D2092721E98E00D833EA /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
 		1298D20B2721E9B000D833EA /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
 		1298D20D2721E9E700D833EA /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
-		1299952A273D8E4E001FFA46 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1299952A273D8E4E001FFA46 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		1299952C273D9041001FFA46 /* PhotosCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionController.swift; sourceTree = "<group>"; };
 		1299952F273D90FE001FFA46 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		12999531273D99DE001FFA46 /* PhotosDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDB.swift; sourceTree = "<group>"; };
 		12BEBC43271DF32700971F2D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12BEBC45271DF4F100971F2D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		12BEBC47271DF7EA00971F2D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				12DD9624273062B900445CC5 /* FriendsDB.swift */,
+				12999531273D99DE001FFA46 /* PhotosDB.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -318,7 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				1298D20D2721E9E700D833EA /* FriendModel.swift */,
-				1299952A273D8E4E001FFA46 /* Photo.swift */,
+				1299952A273D8E4E001FFA46 /* PhotoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -519,7 +522,7 @@
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
 				12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
-				1299952B273D8E4E001FFA46 /* Photo.swift in Sources */,
+				1299952B273D8E4E001FFA46 /* PhotoModel.swift in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
 				12999530273D90FE001FFA46 /* PhotoCell.swift in Sources */,
@@ -529,6 +532,7 @@
 				12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
 				1299952D273D9041001FFA46 /* PhotosCollectionController.swift in Sources */,
+				12999532273D99DE001FFA46 /* PhotosDB.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
 				12BEBC4E271DFCCD00971F2D /* PhotosAPI.swift in Sources */,
 				12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */,
