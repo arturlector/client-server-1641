@@ -7,10 +7,7 @@
 
 import Foundation
 import Alamofire
-
-struct Photo {
-    
-}
+import SwiftyJSON
 
 final class PhotosAPI {
     
@@ -34,10 +31,21 @@ final class PhotosAPI {
         ]
         let url = baseUrl + method
         
-        AF.request(url, method: .get, parameters: parameters).responseJSON(completionHandler: { response in
-           
-            print("Response: \(response.value)")
-        })
+        AF.request(url, method: .get, parameters: parameters).responseJSON { response in
+            
+            //Бинарник с данными
+            guard let data = response.data else { return }
         
+            debugPrint(data.prettyJSON ?? "")
+            
+            do {
+                let itemsData = try JSON(data)["response"]["items"].rawData()
+                let photos = try JSONDecoder().decode([Photo].self, from: itemsData)
+                
+                completion(photos)
+            } catch {
+                print(error)
+            }
+        }
     }
 }
