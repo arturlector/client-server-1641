@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1207C576274BFFC800401C6D /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1207C575274BFFC800401C6D /* ThreadViewController.swift */; };
 		1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA982719F2D8001008E4 /* AppDelegate.swift */; };
 		1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA9A2719F2D8001008E4 /* SceneDelegate.swift */; };
 		1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DA9C2719F2D8001008E4 /* SendCashViewController.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1207C575274BFFC800401C6D /* ThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewController.swift; sourceTree = "<group>"; };
 		1230DA952719F2D8001008E4 /* clientserver-1641.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clientserver-1641.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1230DA982719F2D8001008E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1230DA9A2719F2D8001008E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1207C573274BFF8A00401C6D /* client-server-course */ = {
+			isa = PBXGroup;
+			children = (
+				1292298927398EC50057B1E6 /* Lesson-8 */,
+				12DD96212730598100445CC5 /* Lesson-6 */,
+				1294AEC127271F4C00C7F1F3 /* Lesson-4 */,
+				1230DAC4271DE5C8001008E4 /* Lesson-2 */,
+				1230DAAE2719F567001008E4 /* Lesson-1 */,
+			);
+			path = "client-server-course";
+			sourceTree = "<group>";
+		};
+		1207C574274BFF9C00401C6D /* performance-course */ = {
+			isa = PBXGroup;
+			children = (
+				1207C577274BFFCD00401C6D /* Lesson-1 */,
+			);
+			path = "performance-course";
+			sourceTree = "<group>";
+		};
+		1207C577274BFFCD00401C6D /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				1207C575274BFFC800401C6D /* ThreadViewController.swift */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
 		1230DA8C2719F2D8001008E4 = {
 			isa = PBXGroup;
 			children = (
@@ -147,11 +177,8 @@
 			children = (
 				1230DAAC2719F3D3001008E4 /* App */,
 				12BEBC42271DF30C00971F2D /* vk-api */,
-				1292298927398EC50057B1E6 /* Lesson-8 */,
-				12DD96212730598100445CC5 /* Lesson-6 */,
-				1294AEC127271F4C00C7F1F3 /* Lesson-4 */,
-				1230DAC4271DE5C8001008E4 /* Lesson-2 */,
-				1230DAAE2719F567001008E4 /* Lesson-1 */,
+				1207C574274BFF9C00401C6D /* performance-course */,
+				1207C573274BFF8A00401C6D /* client-server-course */,
 				1230DAAD2719F3DE001008E4 /* Resources */,
 			);
 			path = "clientserver-1641";
@@ -531,6 +558,7 @@
 				1298D20A2721E98E00D833EA /* Friend1.swift in Sources */,
 				12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */,
 				1230DA9B2719F2D8001008E4 /* SceneDelegate.swift in Sources */,
+				1207C576274BFFC800401C6D /* ThreadViewController.swift in Sources */,
 				1299952D273D9041001FFA46 /* PhotosCollectionController.swift in Sources */,
 				12999532273D99DE001FFA46 /* PhotosDB.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
