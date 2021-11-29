@@ -23,6 +23,7 @@
 		1230DAC7271DF154001008E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1230DAC6271DF154001008E4 /* Alamofire */; };
 		1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */; };
 		1257BA5D27553B3D00F178CB /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5C27553B3D00F178CB /* DocumentViewController.swift */; };
+		1257BA5F2755434300F178CB /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5E2755434300F178CB /* OperationViewController.swift */; };
 		1258DA08274FEED200331445 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258DA07274FEED200331445 /* GCDViewController.swift */; };
 		12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12647FE427344E090093C12A /* UIImageView+Load.swift */; };
 		1292298B2739953C0057B1E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1292298A2739953C0057B1E6 /* GoogleService-Info.plist */; };
@@ -79,6 +80,7 @@
 		1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilterViewController.swift; sourceTree = "<group>"; };
 		1257BA5C27553B3D00F178CB /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		1257BA5E2755434300F178CB /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
 		1258DA07274FEED200331445 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12647FE427344E090093C12A /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		1292298A2739953C0057B1E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 		1257BA592755354700F178CB /* Lesson-3 */ = {
 			isa = PBXGroup;
 			children = (
+				1257BA5E2755434300F178CB /* OperationViewController.swift */,
 			);
 			path = "Lesson-3";
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
 				1230DA992719F2D8001008E4 /* AppDelegate.swift in Sources */,
 				12999530273D90FE001FFA46 /* PhotoCell.swift in Sources */,
+				1257BA5F2755434300F178CB /* OperationViewController.swift in Sources */,
 				12922992273997440057B1E6 /* LoginViewController.swift in Sources */,
 				12BEBC48271DF7EA00971F2D /* Session.swift in Sources */,
 				1298D20A2721E98E00D833EA /* Friend1.swift in Sources */,
