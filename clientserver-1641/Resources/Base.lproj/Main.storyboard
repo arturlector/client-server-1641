@@ -458,10 +458,10 @@
             </objects>
             <point key="canvasLocation" x="-2086" y="-2254"/>
         </scene>
-        <!--Document View Controller-->
+        <!--Operation View Controller-->
         <scene sceneID="E5Z-fU-uCi">
             <objects>
-                <viewController id="LXH-Rb-s08" customClass="DocumentViewController" customModule="clientserver_1641" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LXH-Rb-s08" customClass="OperationViewController" customModule="clientserver_1641" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQx-jv-RXQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
