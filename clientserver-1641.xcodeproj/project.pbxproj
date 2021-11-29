@@ -21,6 +21,9 @@
 		1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC02719FF3C001008E4 /* BViewController.swift */; };
 		1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */; };
 		1230DAC7271DF154001008E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1230DAC6271DF154001008E4 /* Alamofire */; };
+		1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */; };
+		1257BA5D27553B3D00F178CB /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5C27553B3D00F178CB /* DocumentViewController.swift */; };
+		1258DA08274FEED200331445 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258DA07274FEED200331445 /* GCDViewController.swift */; };
 		12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12647FE427344E090093C12A /* UIImageView+Load.swift */; };
 		1292298B2739953C0057B1E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1292298A2739953C0057B1E6 /* GoogleService-Info.plist */; };
 		1292298E273996830057B1E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1292298D273996830057B1E6 /* FirebaseAuth */; };
@@ -74,6 +77,9 @@
 		1230DABC2719FF00001008E4 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		1230DAC02719FF3C001008E4 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilterViewController.swift; sourceTree = "<group>"; };
+		1257BA5C27553B3D00F178CB /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		1258DA07274FEED200331445 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12647FE427344E090093C12A /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		1292298A2739953C0057B1E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		12922991273997440057B1E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +147,8 @@
 		1207C574274BFF9C00401C6D /* performance-course */ = {
 			isa = PBXGroup;
 			children = (
+				1257BA592755354700F178CB /* Lesson-3 */,
+				1258DA06274FEEBE00331445 /* Lesson-2 */,
 				1207C577274BFFCD00401C6D /* Lesson-1 */,
 			);
 			path = "performance-course";
@@ -247,6 +255,23 @@
 			isa = PBXGroup;
 			children = (
 				1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */,
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		1257BA592755354700F178CB /* Lesson-3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson-3";
+			sourceTree = "<group>";
+		};
+		1258DA06274FEEBE00331445 /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1257BA5C27553B3D00F178CB /* DocumentViewController.swift */,
+				1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */,
+				1258DA07274FEED200331445 /* GCDViewController.swift */,
 			);
 			path = "Lesson-2";
 			sourceTree = "<group>";
@@ -532,9 +557,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1298D20E2721E9E700D833EA /* FriendModel.swift in Sources */,
+				1258DA08274FEED200331445 /* GCDViewController.swift in Sources */,
 				1298D2072721E75C00D833EA /* Friend3.swift in Sources */,
 				12922994273997500057B1E6 /* HomeViewController.swift in Sources */,
 				1230DAB62719FA03001008E4 /* NotificationCenterViewController.swift in Sources */,
+				1257BA5D27553B3D00F178CB /* DocumentViewController.swift in Sources */,
 				1298D1FD2721CFBB00D833EA /* PhotosViewController.swift in Sources */,
 				1294AEEF272727DC00C7F1F3 /* Human+CoreDataClass.swift in Sources */,
 				1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */,
@@ -548,6 +575,7 @@
 				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
 				12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */,
+				1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
 				1299952B273D8E4E001FFA46 /* PhotoModel.swift in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
