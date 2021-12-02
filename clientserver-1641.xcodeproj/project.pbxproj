@@ -24,6 +24,8 @@
 		1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */; };
 		1257BA5D27553B3D00F178CB /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5C27553B3D00F178CB /* DocumentViewController.swift */; };
 		1257BA5F2755434300F178CB /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5E2755434300F178CB /* OperationViewController.swift */; };
+		1257BA6A275937BF00F178CB /* ProblemsConcurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA69275937BF00F178CB /* ProblemsConcurrencyViewController.swift */; };
+		1257BA6C275946E700F178CB /* ConcurrencyTestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA6B275946E700F178CB /* ConcurrencyTestsViewController.swift */; };
 		1258DA08274FEED200331445 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258DA07274FEED200331445 /* GCDViewController.swift */; };
 		12647FE527344E090093C12A /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12647FE427344E090093C12A /* UIImageView+Load.swift */; };
 		1292298B2739953C0057B1E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1292298A2739953C0057B1E6 /* GoogleService-Info.plist */; };
@@ -81,6 +83,8 @@
 		1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilterViewController.swift; sourceTree = "<group>"; };
 		1257BA5C27553B3D00F178CB /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		1257BA5E2755434300F178CB /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		1257BA69275937BF00F178CB /* ProblemsConcurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsConcurrencyViewController.swift; sourceTree = "<group>"; };
+		1257BA6B275946E700F178CB /* ConcurrencyTestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyTestsViewController.swift; sourceTree = "<group>"; };
 		1258DA07274FEED200331445 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		12647FE427344E090093C12A /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		1292298A2739953C0057B1E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		1207C574274BFF9C00401C6D /* performance-course */ = {
 			isa = PBXGroup;
 			children = (
+				1257BA682759379A00F178CB /* Lesson-4 */,
 				1257BA592755354700F178CB /* Lesson-3 */,
 				1258DA06274FEEBE00331445 /* Lesson-2 */,
 				1207C577274BFFCD00401C6D /* Lesson-1 */,
@@ -267,6 +272,15 @@
 				1257BA5E2755434300F178CB /* OperationViewController.swift */,
 			);
 			path = "Lesson-3";
+			sourceTree = "<group>";
+		};
+		1257BA682759379A00F178CB /* Lesson-4 */ = {
+			isa = PBXGroup;
+			children = (
+				1257BA69275937BF00F178CB /* ProblemsConcurrencyViewController.swift */,
+				1257BA6B275946E700F178CB /* ConcurrencyTestsViewController.swift */,
+			);
+			path = "Lesson-4";
 			sourceTree = "<group>";
 		};
 		1258DA06274FEEBE00331445 /* Lesson-2 */ = {
@@ -577,6 +591,7 @@
 				1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */,
 				1230DAB22719F6BC001008E4 /* Account.swift in Sources */,
 				1230DA9D2719F2D8001008E4 /* SendCashViewController.swift in Sources */,
+				1257BA6C275946E700F178CB /* ConcurrencyTestsViewController.swift in Sources */,
 				12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */,
 				1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
@@ -595,6 +610,7 @@
 				12999532273D99DE001FFA46 /* PhotosDB.swift in Sources */,
 				1230DABD2719FF00001008E4 /* AViewController.swift in Sources */,
 				12BEBC4E271DFCCD00971F2D /* PhotosAPI.swift in Sources */,
+				1257BA6A275937BF00F178CB /* ProblemsConcurrencyViewController.swift in Sources */,
 				12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */,
 				1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
