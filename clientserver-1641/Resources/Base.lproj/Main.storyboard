@@ -458,10 +458,10 @@
             </objects>
             <point key="canvasLocation" x="-2086" y="-2254"/>
         </scene>
-        <!--Operation View Controller-->
+        <!--Concurrency Tests View Controller-->
         <scene sceneID="E5Z-fU-uCi">
             <objects>
-                <viewController id="LXH-Rb-s08" customClass="OperationViewController" customModule="clientserver_1641" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LXH-Rb-s08" customClass="ConcurrencyTestsViewController" customModule="clientserver_1641" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQx-jv-RXQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -471,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCQ-jQ-Gcp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1472" y="-2693"/>
+            <point key="canvasLocation" x="-1345" y="-2722"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VvZ-sq-hQS">
@@ -489,7 +489,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZJ-zN-XfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-651" y="-2254"/>
+            <point key="canvasLocation" x="-539" y="-2261"/>
         </scene>
     </scenes>
     <resources>
