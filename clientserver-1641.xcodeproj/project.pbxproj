@@ -21,6 +21,9 @@
 		1230DAC12719FF3C001008E4 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC02719FF3C001008E4 /* BViewController.swift */; };
 		1230DAC3271DE5C3001008E4 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */; };
 		1230DAC7271DF154001008E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1230DAC6271DF154001008E4 /* Alamofire */; };
+		123CA3E3275E7C5C00E647C1 /* FuturePromiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123CA3E2275E7C5C00E647C1 /* FuturePromiseViewController.swift */; };
+		123CA3E5275E831100E647C1 /* PromiseKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123CA3E4275E831100E647C1 /* PromiseKitViewController.swift */; };
+		123CA3E8275E838900E647C1 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 123CA3E7275E838900E647C1 /* PromiseKit */; };
 		1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */; };
 		1257BA5D27553B3D00F178CB /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5C27553B3D00F178CB /* DocumentViewController.swift */; };
 		1257BA5F2755434300F178CB /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BA5E2755434300F178CB /* OperationViewController.swift */; };
@@ -80,6 +83,8 @@
 		1230DABC2719FF00001008E4 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		1230DAC02719FF3C001008E4 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		123CA3E2275E7C5C00E647C1 /* FuturePromiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePromiseViewController.swift; sourceTree = "<group>"; };
+		123CA3E4275E831100E647C1 /* PromiseKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseKitViewController.swift; sourceTree = "<group>"; };
 		1257BA5A2755356D00F178CB /* BlurFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFilterViewController.swift; sourceTree = "<group>"; };
 		1257BA5C27553B3D00F178CB /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		1257BA5E2755434300F178CB /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1294AEF527272BCC00C7F1F3 /* Realm in Frameworks */,
+				123CA3E8275E838900E647C1 /* PromiseKit in Frameworks */,
 				1298D2052721E29A00D833EA /* SwiftyJSON in Frameworks */,
 				1230DAC7271DF154001008E4 /* Alamofire in Frameworks */,
 				1294AEC62727231C00C7F1F3 /* SwiftKeychainWrapper in Frameworks */,
@@ -153,6 +159,7 @@
 		1207C574274BFF9C00401C6D /* performance-course */ = {
 			isa = PBXGroup;
 			children = (
+				123CA3E1275E7C1600E647C1 /* Lesson-5 */,
 				1257BA682759379A00F178CB /* Lesson-4 */,
 				1257BA592755354700F178CB /* Lesson-3 */,
 				1258DA06274FEEBE00331445 /* Lesson-2 */,
@@ -264,6 +271,15 @@
 				1230DAC2271DE5C3001008E4 /* NetworkingViewController.swift */,
 			);
 			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		123CA3E1275E7C1600E647C1 /* Lesson-5 */ = {
+			isa = PBXGroup;
+			children = (
+				123CA3E2275E7C5C00E647C1 /* FuturePromiseViewController.swift */,
+				123CA3E4275E831100E647C1 /* PromiseKitViewController.swift */,
+			);
+			path = "Lesson-5";
 			sourceTree = "<group>";
 		};
 		1257BA592755354700F178CB /* Lesson-3 */ = {
@@ -485,6 +501,7 @@
 				1294AEF427272BCC00C7F1F3 /* Realm */,
 				1292298D273996830057B1E6 /* FirebaseAuth */,
 				1292298F273996830057B1E6 /* FirebaseDatabase */,
+				123CA3E7275E838900E647C1 /* PromiseKit */,
 			);
 			productName = "clientserver-1641";
 			productReference = 1230DA952719F2D8001008E4 /* clientserver-1641.app */;
@@ -519,6 +536,7 @@
 				1294AEC42727231C00C7F1F3 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
 				1294AEF127272BCC00C7F1F3 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				1292298C273996830057B1E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				123CA3E6275E838900E647C1 /* XCRemoteSwiftPackageReference "PromiseKit" */,
 			);
 			productRefGroup = 1230DA962719F2D8001008E4 /* Products */;
 			projectDirPath = "";
@@ -594,6 +612,7 @@
 				1257BA6C275946E700F178CB /* ConcurrencyTestsViewController.swift in Sources */,
 				12DD9625273062B900445CC5 /* FriendsDB.swift in Sources */,
 				1257BA5B2755356D00F178CB /* BlurFilterViewController.swift in Sources */,
+				123CA3E5275E831100E647C1 /* PromiseKitViewController.swift in Sources */,
 				1294AEEC2727272C00C7F1F3 /* client-server.xcdatamodeld in Sources */,
 				1299952B273D8E4E001FFA46 /* PhotoModel.swift in Sources */,
 				12BEBC46271DF4F100971F2D /* FriendsViewController.swift in Sources */,
@@ -612,6 +631,7 @@
 				12BEBC4E271DFCCD00971F2D /* PhotosAPI.swift in Sources */,
 				1257BA6A275937BF00F178CB /* ProblemsConcurrencyViewController.swift in Sources */,
 				12DD962327305A1800445CC5 /* RelmViewController.swift in Sources */,
+				123CA3E3275E7C5C00E647C1 /* FuturePromiseViewController.swift in Sources */,
 				1298D2022721DA6F00D833EA /* Data+PrettyJSON.swift in Sources */,
 				1230DAB02719F5AA001008E4 /* DetailViewController.swift in Sources */,
 				12BEBC4C271DF94F00971F2D /* FriendsAPI.swift in Sources */,
@@ -829,6 +849,14 @@
 				minimumVersion = 5.4.4;
 			};
 		};
+		123CA3E6275E838900E647C1 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.16.2;
+			};
+		};
 		1292298C273996830057B1E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -868,6 +896,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1230DAC5271DF154001008E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		123CA3E7275E838900E647C1 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 123CA3E6275E838900E647C1 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
 		};
 		1292298D273996830057B1E6 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
